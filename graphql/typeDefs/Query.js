@@ -1,4 +1,4 @@
-import {gql} from "apollo-server-micro"
+import { gql } from "apollo-server-micro";
 
 /*
 plus facile a communiquer
@@ -10,7 +10,7 @@ moins de diversite
  */
 
 export default gql`
-	type Query {
-		user(id: Int!): User
-	}
+  type Query {
+    user(id: Int!): User
+  }
 `;
